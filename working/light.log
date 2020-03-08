@@ -1,6 +1,6 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
-running with 8 threads
+running with 12 threads
 LoadBSPFile: 'firstMap.bsp'
 BSP is version 29
 --- LoadEntities ---
@@ -25,7 +25,7 @@ Lighting Completed.
 lightdatasize: 4376
 0 switchable light styles (32 max)
 Writing firstMap.bsp as BSP version 29
-0.112 seconds elapsed
+0.084 seconds elapsed
 
 stats:
 1.010512 lights tested, 0.822602 hits per sample point

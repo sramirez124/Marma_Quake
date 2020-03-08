@@ -1,5 +1,5 @@
 ---- vis / ericw-tools v0.18.1 ----
-running with 8 threads
+running with 12 threads
 testlevel = 4
 LoadBSPFile: 'firstMap.bsp'
 BSP is version 29

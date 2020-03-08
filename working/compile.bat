@@ -1,29 +1,29 @@
 @echo off
 
 cd\
-cd D:\quake-leveldesign-starterkit-1.10.0\working
+cd C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\working
 
 
 echo Copying Files...
-copy D:\quake-leveldesign-starterkit-1.10.0\id1\maps\firstMap.map D:\quake-leveldesign-starterkit-1.10.0\working
+copy C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps\firstMap.map C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\working
 
 
 echo Converting map...
 
 
 echo --------------QBSP--------------
-D:\quake-leveldesign-starterkit-1.10.0\tools\ericw-tools\bin\qbsp.exe firstMap
+C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools-v0.18.1-win64\bin\qbsp.exe firstMap
 
 echo --------------VIS---------------
-D:\quake-leveldesign-starterkit-1.10.0\tools\ericw-tools\bin\vis.exe firstMap
+C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools-v0.18.1-win64\bin\vis.exe firstMap
 
 echo -------------LIGHT--------------
-D:\quake-leveldesign-starterkit-1.10.0\tools\ericw-tools\bin\light.exe firstMap
+C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools-v0.18.1-win64\bin\light.exe firstMap
 
-copy firstMap.bsp D:\quake-leveldesign-starterkit-1.10.0\id1\maps
-copy firstMap.pts D:\quake-leveldesign-starterkit-1.10.0\id1\maps
-copy firstMap.lit D:\quake-leveldesign-starterkit-1.10.0\id1\maps
+copy firstMap.bsp C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps
+copy firstMap.pts C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps
+copy firstMap.lit C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps
 pause
 cd\
-cd D:\quake-leveldesign-starterkit-1.10.0
+cd C:\Users\srami\Documents\GitHub\quakemultiplayerlevel
 quakespasm  +map firstMap
