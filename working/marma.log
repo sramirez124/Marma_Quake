@@ -1,0 +1,83 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: marma.map
+Output file: marma.bsp
+
+---- LoadMapFile ----
+*** WARNING 05: No info_player_start entity in level
+          102 faces
+           17 brushes
+            5 entities
+            2 unique texnames
+           21 texinfo
+
+Opened WAD: ../wads/start/START.WAD
+Processing hull 0...
+---- Brush_LoadEntity ----
+           17 brushes
+           35 planes
+---- CSGFaces ----
+          102 brushfaces
+          120 csgfaces
+          120 mergedfaces
+---- SolidBSP ----
+          232 split nodes
+           81 solid leafs
+          146 empty leafs
+            6 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          440 leaffaces
+          430 nodefaces
+---- Portalize ----
+          152 vis leafs
+          152 vis clusters
+          362 vis portals
+---- FillOutside ----
+          113 outleafs
+---- MergeAll ----
+           91 mergefaces
+---- SolidBSP ----
+           36 split nodes
+           15 solid leafs
+           20 empty leafs
+            2 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          181 leaffaces
+          149 nodefaces
+---- Portalize ----
+           22 vis leafs
+           22 vis clusters
+           48 vis portals
+---- Tjunc ----
+          143 world edges
+          489 edge points
+          155 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote marma.bsp
+           70 planes             1400
+          200 vertexes           2400
+           36 nodes               864
+           11 texinfo             440
+          149 faces              2980
+          134 clipnodes          1072
+           23 leafs               644
+          181 marksurfaces        362
+          750 surfedges          3000
+          376 edges              1504
+            2 textures          11868
+              lightdata             0
+              visdata               0
+              entdata             358
+
+0.106 seconds elapsed
+Peak memory usage: 1232318 (1.2M)

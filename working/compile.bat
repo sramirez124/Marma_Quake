@@ -1,29 +1,29 @@
 @echo off
 
 cd\
-cd C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\working
+cd C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\working
 
 
 echo Copying Files...
-copy C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps\firstMap.map C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\working
+copy C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\id1\maps\marma.map C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\working
 
 
 echo Converting map...
 
 
 echo --------------QBSP--------------
-C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools-v0.18.1-win64\bin\qbsp.exe firstMap
+C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools\bin\qbsp.exe marma
 
 echo --------------VIS---------------
-C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools-v0.18.1-win64\bin\vis.exe firstMap
+C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools\bin\vis.exe marma
 
 echo -------------LIGHT--------------
-C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools-v0.18.1-win64\bin\light.exe firstMap
+C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools\bin\light.exe marma
 
-copy firstMap.bsp C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps
-copy firstMap.pts C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps
-copy firstMap.lit C:\Users\srami\Documents\GitHub\quakemultiplayerlevel\id1\maps
+copy marma.bsp C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\id1\maps
+copy marma.pts C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\id1\maps
+copy marma.lit C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\id1\maps
 pause
 cd\
-cd C:\Users\srami\Documents\GitHub\quakemultiplayerlevel
-quakespasm  +map firstMap
+cd C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel
+quakespasm  +map marma
