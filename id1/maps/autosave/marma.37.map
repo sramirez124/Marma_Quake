@@ -1439,17 +1439,12 @@
 // entity 1
 {
 "classname" "info_player_start"
-"origin" "-64 -1120 40"
+"origin" "-160 -1120 40"
 "angle" "180"
 }
 // entity 2
 {
 "classname" "info_player_deathmatch"
-"origin" "-240 -1120 40"
+"origin" "-160 -1088 40"
 "angle" "180"
-}
-// entity 3
-{
-"classname" "info_player_start"
-"origin" "-608 -1232 200"
 }

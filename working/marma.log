@@ -3,81 +3,87 @@ Input file: marma.map
 Output file: marma.bsp
 
 ---- LoadMapFile ----
-*** WARNING 05: No info_player_start entity in level
-          102 faces
-           17 brushes
-            5 entities
-            2 unique texnames
-           21 texinfo
+*** WARNING 02: Multiple info_player_start entities
+          954 faces
+          159 brushes
+            4 entities
+           18 unique texnames
+          227 texinfo
 
 Opened WAD: ../wads/start/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           17 brushes
-           35 planes
+          159 brushes
+          183 planes
 ---- CSGFaces ----
-          102 brushfaces
-          120 csgfaces
-          120 mergedfaces
+          954 brushfaces
+         1025 csgfaces
+          963 mergedfaces
 ---- SolidBSP ----
-          232 split nodes
-           81 solid leafs
-          146 empty leafs
-            6 water leafs
+         1664 split nodes
+          655 solid leafs
+          933 empty leafs
+           77 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          440 leaffaces
-          430 nodefaces
+         3881 leaffaces
+         3635 nodefaces
 ---- Portalize ----
-          152 vis leafs
-          152 vis clusters
-          362 vis portals
+         1010 vis leafs
+         1010 vis clusters
+         2721 vis portals
 ---- FillOutside ----
-          113 outleafs
+          382 outleafs
 ---- MergeAll ----
-           91 mergefaces
+          984 mergefaces
 ---- SolidBSP ----
-           36 split nodes
-           15 solid leafs
-           20 empty leafs
-            2 water leafs
+          572 split nodes
+          247 solid leafs
+          289 empty leafs
+           37 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          181 leaffaces
-          149 nodefaces
+         2330 leaffaces
+         1955 nodefaces
 ---- Portalize ----
-           22 vis leafs
-           22 vis clusters
-           48 vis portals
+          326 vis leafs
+          326 vis clusters
+         1033 vis portals
 ---- Tjunc ----
-          143 world edges
-          489 edge points
-          155 edges added by tjunctions
+         1272 world edges
+         5702 edge points
+         1943 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 16: Texture 128_blue_1 not found
+*** WARNING 16: Texture 128_blue_3 not found
+*** WARNING 16: Texture 128_blue_2 not found
+*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote marma.bsp
-           70 planes             1400
-          200 vertexes           2400
-           36 nodes               864
-           11 texinfo             440
-          149 faces              2980
-          134 clipnodes          1072
-           23 leafs               644
-          181 marksurfaces        362
-          750 surfedges          3000
-          376 edges              1504
-            2 textures          11868
+          440 planes             8800
+         2297 vertexes          27564
+          572 nodes             13728
+          217 texinfo            8680
+         1955 faces             39100
+         3330 clipnodes         26640
+          327 leafs              9156
+         2330 marksurfaces       4660
+         9762 surfedges         39048
+         4882 edges             19528
+           18 textures         144892
               lightdata             0
               visdata               0
-              entdata             358
+              entdata             301
 
-0.106 seconds elapsed
-Peak memory usage: 1232318 (1.2M)
+0.297 seconds elapsed
+Peak memory usage: 13198796 (12.6M)
