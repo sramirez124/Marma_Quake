@@ -1,0 +1,9 @@
+gamma
+gamma .65
+gamma 0
+gamma 1
+gamma .99
+gamma 4
+gamma .65
+gama 1
+gamma 1

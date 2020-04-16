@@ -18,7 +18,8 @@ echo --------------VIS---------------
 C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools\bin\vis.exe marma
 
 echo -------------LIGHT--------------
-C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools\bin\light.exe marma
+C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\tools\ericw-tools\bin\light.exe -soft marma
+pause
 
 copy marma.bsp C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\id1\maps
 copy marma.pts C:\Users\Steve\Documents\GitHub\quakemultiplayerlevel\id1\maps

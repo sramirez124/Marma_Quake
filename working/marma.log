@@ -3,87 +3,65 @@ Input file: marma.map
 Output file: marma.bsp
 
 ---- LoadMapFile ----
-*** WARNING 02: Multiple info_player_start entities
-          954 faces
-          159 brushes
-            4 entities
-           18 unique texnames
-          227 texinfo
+         4657 faces
+          770 brushes
+          111 entities
+           33 unique texnames
+          820 texinfo
 
 Opened WAD: ../wads/start/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          159 brushes
-          183 planes
+          737 brushes
+          686 planes
 ---- CSGFaces ----
-          954 brushfaces
-         1025 csgfaces
-          963 mergedfaces
+         4459 brushfaces
+         5591 csgfaces
+         3982 mergedfaces
 ---- SolidBSP ----
-         1664 split nodes
-          655 solid leafs
-          933 empty leafs
-           77 water leafs
+         5479 split nodes
+         2285 solid leafs
+         2910 empty leafs
+          285 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3881 leaffaces
-         3635 nodefaces
+        12332 leaffaces
+        11026 nodefaces
 ---- Portalize ----
-         1010 vis leafs
-         1010 vis clusters
-         2721 vis portals
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1148.381 -32.000 1309.899)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1072.000 -1032.935 1680.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1184.569 -1232.065 1680.000)
+         3195 vis leafs
+         3195 vis clusters
+         9784 vis portals
 ---- FillOutside ----
-          382 outleafs
----- MergeAll ----
-          984 mergefaces
----- SolidBSP ----
-          572 split nodes
-          247 solid leafs
-          289 empty leafs
-           37 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-         2330 leaffaces
-         1955 nodefaces
----- Portalize ----
-          326 vis leafs
-          326 vis clusters
-         1033 vis portals
----- Tjunc ----
-         1272 world edges
-         5702 edge points
-         1943 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (-1848 -1592 216), no filling performed.
+Leak file written to marma.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1056.000 119.000 1216.000)
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
-*** WARNING 16: Texture 128_blue_1 not found
-*** WARNING 16: Texture 128_blue_3 not found
-*** WARNING 16: Texture 128_blue_2 not found
-*** WARNING 16: Texture __TB_empty not found
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1600.000 96.000 1184.000)
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1179.576 -984.066 1586.923)
 ---- WriteBSPFile ----
 Wrote marma.bsp
-          440 planes             8800
-         2297 vertexes          27564
-          572 nodes             13728
-          217 texinfo            8680
-         1955 faces             39100
-         3330 clipnodes         26640
-          327 leafs              9156
-         2330 marksurfaces       4660
-         9762 surfedges         39048
-         4882 edges             19528
-           18 textures         144892
+         1449 planes            28980
+        13503 vertexes         162036
+         5642 nodes            135408
+          689 texinfo           27560
+        11274 faces            225480
+         5592 clipnodes         44736
+         3332 leafs             93296
+        12606 marksurfaces      25212
+        44469 surfedges        177876
+        29820 edges            119280
+           33 textures         376816
               lightdata             0
               visdata               0
-              entdata             301
+              entdata            7121
 
-0.297 seconds elapsed
-Peak memory usage: 13198796 (12.6M)
+0.722 seconds elapsed
+Peak memory usage: 52131100 (49.7M)
