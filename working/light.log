@@ -4,55 +4,30 @@ running with 12 threads
 LoadBSPFile: 'marma.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (-200 -1336 40) (light) has empty key/value "angle" ""
-WARNING: entity at (-328 -1336 40) (light) has empty key/value "angle" ""
-WARNING: entity at (-488 -1336 40) (light) has empty key/value "angle" ""
-WARNING: entity at (-184 -952 40) (light) has empty key/value "angle" ""
-WARNING: entity at (-312 -952 40) (light) has empty key/value "angle" ""
-WARNING: entity at (-472 -952 40) (light) has empty key/value "angle" ""
-WARNING: entity at (-216 -1336 232) (light) has empty key/value "angle" ""
-WARNING: entity at (-344 -1336 232) (light) has empty key/value "angle" ""
-WARNING: entity at (-504 -1336 232) (light) has empty key/value "angle" ""
-WARNING: entity at (-200 -952 232) (light) has empty key/value "angle" ""
-WARNING: entity at (-328 -952 232) (light) has empty key/value "angle" ""
-WARNING: entity at (-488 -952 232) (light) has empty key/value "angle" ""
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-WARNING: couldn't parse '' as number for key 'angle'
-40 entities read, 24 are lights.
+4 entities read, 0 are lights.
 --- OptionsSummary ---
-    "light" was set to "50.000000" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	3662 solid faces
+	1667 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 24 initial lights
-SetupLights: 24 after surface lights
-SetupLights: 24 after jittering
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9..
-Final count: 24 lights 0 suns in use.
+
+Final count: 0 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 149781
+lightdatasize: 0
 0 switchable light styles (32 max)
 Writing marma.bsp as BSP version 29
 0.207 seconds elapsed
 
 stats:
-0.436258 lights tested, 0.326345 hits per sample point
+0.000000 lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
-14 empty lightmaps
+0 empty lightmaps
