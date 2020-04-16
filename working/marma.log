@@ -3,87 +3,63 @@ Input file: marma.map
 Output file: marma.bsp
 
 ---- LoadMapFile ----
-*** WARNING 02: Multiple info_player_start entities
-          954 faces
-          159 brushes
-            4 entities
-           18 unique texnames
-          227 texinfo
+         2420 faces
+          407 brushes
+           40 entities
+           29 unique texnames
+          465 texinfo
 
 Opened WAD: ../wads/start/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          159 brushes
-          183 planes
+          400 brushes
+          288 planes
 ---- CSGFaces ----
-          954 brushfaces
-         1025 csgfaces
-          963 mergedfaces
+         2378 brushfaces
+         1978 csgfaces
+         1650 mergedfaces
 ---- SolidBSP ----
-         1664 split nodes
-          655 solid leafs
-          933 empty leafs
-           77 water leafs
+         2280 split nodes
+          920 solid leafs
+         1251 empty leafs
+          110 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3881 leaffaces
-         3635 nodefaces
+         4502 leaffaces
+         4212 nodefaces
 ---- Portalize ----
-         1010 vis leafs
-         1010 vis clusters
-         2721 vis portals
+         1361 vis leafs
+         1361 vis clusters
+         3845 vis portals
 ---- FillOutside ----
-          382 outleafs
----- MergeAll ----
-          984 mergefaces
----- SolidBSP ----
-          572 split nodes
-          247 solid leafs
-          289 empty leafs
-           37 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-         2330 leaffaces
-         1955 nodefaces
----- Portalize ----
-          326 vis leafs
-          326 vis clusters
-         1033 vis portals
----- Tjunc ----
-         1272 world edges
-         5702 edge points
-         1943 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (-1400 -1304 296), no filling performed.
+Leak file written to marma.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+*** WARNING 10: Reached occupant at (-984 -1816 232), no filling performed.
 Processing hull 2...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+*** WARNING 10: Reached occupant at (-984 -1816 232), no filling performed.
 *** WARNING 16: Texture 128_blue_1 not found
-*** WARNING 16: Texture 128_blue_3 not found
-*** WARNING 16: Texture 128_blue_2 not found
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote marma.bsp
-          440 planes             8800
-         2297 vertexes          27564
-          572 nodes             13728
-          217 texinfo            8680
-         1955 faces             39100
-         3330 clipnodes         26640
-          327 leafs              9156
-         2330 marksurfaces       4660
-         9762 surfedges         39048
-         4882 edges             19528
-           18 textures         144892
+          524 planes            10480
+         4722 vertexes          56664
+         2322 nodes             55728
+          389 texinfo           15560
+         4254 faces             85080
+         3911 clipnodes         31288
+         1404 leafs             39312
+         4544 marksurfaces       9088
+        16975 surfedges         67900
+        11169 edges             44676
+           29 textures         300016
               lightdata             0
               visdata               0
-              entdata             301
+              entdata            2481
 
-0.297 seconds elapsed
-Peak memory usage: 13198796 (12.6M)
+0.334 seconds elapsed
+Peak memory usage: 21120828 (20.1M)
