@@ -1,7 +1,7 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 12 threads
-LoadBSPFile: 'marma.bsp'
+LoadBSPFile: 'magma.bsp'
 BSP is version 29
 --- LoadEntities ---
 111 entities read, 53 are lights.
@@ -23,10 +23,10 @@ Final count: 53 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 573624
+lightdatasize: 573621
 0 switchable light styles (32 max)
-Writing marma.bsp as BSP version 29
-0.386 seconds elapsed
+Writing magma.bsp as BSP version 29
+0.391 seconds elapsed
 
 stats:
 0.276194 lights tested, 0.159425 hits per sample point
