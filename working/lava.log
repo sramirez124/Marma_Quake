@@ -1,6 +1,6 @@
 ---- qbsp / ericw-tools v0.18.1 ----
-Input file: magma.map
-Output file: magma.bsp
+Input file: lava.map
+Output file: lava.bsp
 
 ---- LoadMapFile ----
          4813 faces
@@ -38,7 +38,7 @@ Processing hull 0...
          9964 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-1848 -1592 216), no filling performed.
-Leak file written to magma.pts
+Leak file written to lava.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -47,7 +47,7 @@ Processing hull 2...
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1600.000 96.000 1184.000)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1179.576 -984.066 1586.923)
 ---- WriteBSPFile ----
-Wrote magma.bsp
+Wrote lava.bsp
          1439 planes            28780
         13586 vertexes         163032
          5701 nodes            136824
@@ -63,5 +63,5 @@ Wrote magma.bsp
               visdata               0
               entdata            6830
 
-0.735 seconds elapsed
+0.756 seconds elapsed
 Peak memory usage: 52435782 (50.0M)

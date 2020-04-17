@@ -1,16 +1,16 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 12 threads
-LoadBSPFile: 'magma.bsp'
+LoadBSPFile: 'lava.bsp'
 BSP is version 29
 --- LoadEntities ---
-111 entities read, 53 are lights.
+106 entities read, 53 are lights.
 --- OptionsSummary ---
     "light" was set to "100.000000" from map
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	64 sky faces
-	10348 solid faces
+	10291 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 53 initial lights
@@ -23,12 +23,12 @@ Final count: 53 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 573621
+lightdatasize: 572340
 0 switchable light styles (32 max)
-Writing magma.bsp as BSP version 29
-0.391 seconds elapsed
+Writing lava.bsp as BSP version 29
+0.384 seconds elapsed
 
 stats:
-0.276194 lights tested, 0.159425 hits per sample point
+0.277021 lights tested, 0.160388 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
-246 empty lightmaps
+245 empty lightmaps
