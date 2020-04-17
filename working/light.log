@@ -10,7 +10,7 @@ BSP is version 29
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	64 sky faces
-	10232 solid faces
+	10348 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 53 initial lights
@@ -23,12 +23,12 @@ Final count: 53 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 572784
+lightdatasize: 573624
 0 switchable light styles (32 max)
 Writing marma.bsp as BSP version 29
-0.400 seconds elapsed
+0.386 seconds elapsed
 
 stats:
-0.274964 lights tested, 0.158506 hits per sample point
+0.276194 lights tested, 0.159425 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 246 empty lightmaps

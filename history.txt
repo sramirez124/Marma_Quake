@@ -7,3 +7,4 @@ gamma 4
 gamma .65
 gama 1
 gamma 1
+developer 1

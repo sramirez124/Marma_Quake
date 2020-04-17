@@ -6,7 +6,7 @@
 "wad" "../wads/start/START.WAD"
 "_tb_def" "builtin:Quake.fgd"
 "light" "100"
-"sounds" "09"
+"sounds" "02"
 // brush 0
 {
 ( -16 -1296 96 ) ( -16 -1296 95 ) ( -16 -1295 96 ) bricka2_2 -0 -96 270 1 1

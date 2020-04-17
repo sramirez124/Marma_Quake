@@ -3,39 +3,39 @@ Input file: marma.map
 Output file: marma.bsp
 
 ---- LoadMapFile ----
-         4657 faces
-          770 brushes
+         4813 faces
+          796 brushes
           111 entities
            33 unique texnames
-          820 texinfo
+          834 texinfo
 
 Opened WAD: ../wads/start/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          737 brushes
-          686 planes
+          763 brushes
+          708 planes
 ---- CSGFaces ----
-         4459 brushfaces
-         5591 csgfaces
-         3982 mergedfaces
+         4615 brushfaces
+         5677 csgfaces
+         4037 mergedfaces
 ---- SolidBSP ----
-         5479 split nodes
-         2285 solid leafs
-         2910 empty leafs
-          285 water leafs
+         5551 split nodes
+         2322 solid leafs
+         2942 empty leafs
+          288 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        12332 leaffaces
-        11026 nodefaces
+        12452 leaffaces
+        11152 nodefaces
 ---- Portalize ----
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1148.381 -32.000 1309.899)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1072.000 -1032.935 1680.000)
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1184.569 -1232.065 1680.000)
-         3195 vis leafs
-         3195 vis clusters
-         9784 vis portals
+         3230 vis leafs
+         3230 vis clusters
+         9902 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-1848 -1592 216), no filling performed.
 Leak file written to marma.pts
@@ -48,20 +48,20 @@ Processing hull 2...
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (-1179.576 -984.066 1586.923)
 ---- WriteBSPFile ----
 Wrote marma.bsp
-         1449 planes            28980
-        13503 vertexes         162036
-         5642 nodes            135408
-          689 texinfo           27560
-        11274 faces            225480
-         5592 clipnodes         44736
-         3332 leafs             93296
-        12606 marksurfaces      25212
-        44469 surfedges        177876
-        29820 edges            119280
+         1485 planes            29700
+        13636 vertexes         163632
+         5714 nodes            137136
+          698 texinfo           27920
+        11400 faces            228000
+         5627 clipnodes         45016
+         3367 leafs             94276
+        12726 marksurfaces      25452
+        44963 surfedges        179852
+        30106 edges            120424
            33 textures         376816
               lightdata             0
               visdata               0
               entdata            7121
 
-0.722 seconds elapsed
-Peak memory usage: 52131100 (49.7M)
+0.735 seconds elapsed
+Peak memory usage: 52814288 (50.4M)
