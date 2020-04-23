@@ -1,7 +1,7 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 12 threads
 testlevel = 4
-LoadBSPFile: 'lava.bsp'
+LoadBSPFile: 'marma.bsp'
 BSP is version 29
-LoadPortals: couldn't read lava.prt
+LoadPortals: couldn't read marma.prt
 No vising performed.

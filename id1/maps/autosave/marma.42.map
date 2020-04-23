@@ -5,7 +5,7 @@
 "classname" "worldspawn"
 "wad" "../wads/start/START.WAD"
 "_tb_def" "builtin:Quake.fgd"
-"light" "150"
+"light" "100"
 "sounds" "09"
 // brush 0
 {
@@ -6431,6 +6431,33 @@
 ( -1408 -720 304 ) ( -1408 -720 305 ) ( -1409 -720 304 ) tlight07 -0 32 -0 -1 1
 ( -1376 -752 208 ) ( -1376 -752 209 ) ( -1376 -751 208 ) tlight07 16 32 -0 1 1
 }
+// brush 717
+{
+( -2016 -2304 16 ) ( -2016 -2303 16 ) ( -2016 -2304 17 ) church1_2 -0 -0 -0 1 1
+( -2016 -2304 16 ) ( -2016 -2304 17 ) ( -2015 -2304 16 ) church1_2 -0 -0 -0 1 1
+( -2016 -2304 16 ) ( -2015 -2304 16 ) ( -2016 -2303 16 ) church1_2 -0 -0 -0 1 1
+( -1888 -2128 32 ) ( -1888 -2127 32 ) ( -1887 -2128 32 ) church1_2 -0 -0 -0 1 1
+( -1888 -2128 32 ) ( -1887 -2128 32 ) ( -1888 -2128 33 ) church1_2 -0 -0 -0 1 1
+( -1888 -2128 32 ) ( -1888 -2128 33 ) ( -1888 -2127 32 ) church1_2 -0 -0 -0 1 1
+}
+// brush 718
+{
+( -2016 -2304 32 ) ( -2016 -2303 32 ) ( -2016 -2304 33 ) church1_2 0 0 0 1 1
+( -2016 -2304 32 ) ( -2016 -2304 33 ) ( -2015 -2304 32 ) church1_2 0 0 0 1 1
+( -2016 -2304 32 ) ( -2015 -2304 32 ) ( -2016 -2303 32 ) church1_2 0 0 0 1 1
+( -2000 -2144 128 ) ( -2000 -2143 128 ) ( -1999 -2144 128 ) church1_2 -0 -0 -0 1 1
+( -2000 -2144 48 ) ( -1999 -2144 48 ) ( -2000 -2144 49 ) church1_2 0 0 0 1 1
+( -2000 -2144 48 ) ( -2000 -2144 49 ) ( -2000 -2143 48 ) church1_2 0 0 0 1 1
+}
+// brush 719
+{
+( -2000 -2304 32 ) ( -2000 -2303 32 ) ( -2000 -2304 33 ) church1_2 0 0 0 1 1
+( -2000 -2304 32 ) ( -2000 -2304 33 ) ( -1999 -2304 32 ) church1_2 0 0 0 1 1
+( -2000 -2304 32 ) ( -1999 -2304 32 ) ( -2000 -2303 32 ) church1_2 0 0 0 1 1
+( -1904 -2288 128 ) ( -1904 -2287 128 ) ( -1903 -2288 128 ) church1_2 -0 -0 -0 1 1
+( -1904 -2288 48 ) ( -1903 -2288 48 ) ( -1904 -2288 49 ) church1_2 0 0 0 1 1
+( -1904 -2288 48 ) ( -1904 -2288 49 ) ( -1904 -2287 48 ) church1_2 0 0 0 1 1
+}
 }
 // entity 1
 {
@@ -6563,12 +6590,6 @@
 }
 // entity 15
 {
-"classname" "info_player_start"
-"origin" "-256 -608 312"
-"angle" "180"
-}
-// entity 16
-{
 "classname" "func_door"
 "angle" "-1"
 // brush 0
@@ -6581,61 +6602,61 @@
 ( -336 -208 448 ) ( -336 -80 416 ) ( -336 -208 416 ) tech09_3 16 32 -0 1 1
 }
 }
-// entity 17
+// entity 16
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-436 -4 380"
 }
-// entity 18
+// entity 17
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-332 -4 380"
 }
-// entity 19
+// entity 18
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-2108 -292 252"
 }
-// entity 20
+// entity 19
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-1980 -292 252"
 }
-// entity 21
+// entity 20
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-2108 -20 252"
 }
-// entity 22
+// entity 21
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-1980 -20 252"
 }
-// entity 23
+// entity 22
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-2164 172 300"
 "angle" "270"
 }
-// entity 24
+// entity 23
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-1892 156 300"
 "angle" "270"
 }
-// entity 25
+// entity 24
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-1892 300 300"
 "angle" "270"
 }
-// entity 26
+// entity 25
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-2164 300 300"
 "angle" "270"
 }
-// entity 27
+// entity 26
 {
 "classname" "func_door"
 "angle" "180"
@@ -6649,7 +6670,7 @@
 ( -608 -736 256 ) ( -608 -608 208 ) ( -608 -736 208 ) sfloor4_5 48 -16 -0 1 1
 }
 }
-// entity 28
+// entity 27
 {
 "classname" "func_door"
 // brush 0
@@ -6662,7 +6683,7 @@
 ( -544 -720 192 ) ( -544 -720 193 ) ( -544 -719 192 ) sfloor4_5 48 -16 -0 1 1
 }
 }
-// entity 29
+// entity 28
 {
 "classname" "func_door"
 "angle" "180"
@@ -6676,7 +6697,7 @@
 ( -1184 -1472 272 ) ( -1184 -1344 224 ) ( -1184 -1472 224 ) bricka2_2 0 0 0 1 1
 }
 }
-// entity 30
+// entity 29
 {
 "classname" "func_door"
 // brush 0
@@ -6689,7 +6710,7 @@
 ( -1120 -1456 192 ) ( -1120 -1456 193 ) ( -1120 -1455 192 ) bricka2_2 0 0 0 1 1
 }
 }
-// entity 31
+// entity 30
 {
 "classname" "func_door"
 "angle" "180"
@@ -6703,7 +6724,7 @@
 ( -608 -1536 272 ) ( -608 -1408 224 ) ( -608 -1536 224 ) bricka2_2 0 0 0 1 1
 }
 }
-// entity 32
+// entity 31
 {
 "classname" "func_door"
 // brush 0
@@ -6716,58 +6737,84 @@
 ( -544 -1520 192 ) ( -544 -1520 193 ) ( -544 -1519 192 ) bricka2_2 0 0 0 1 1
 }
 }
-// entity 33
+// entity 32
 {
 "classname" "info_player_deathmatch"
 "origin" "-112 -1120 40"
 "angle" "180"
 }
-// entity 34
+// entity 33
 {
 "classname" "info_teleport_destination"
 "origin" "-608 -1152 192"
 }
-// entity 35
+// entity 34
 {
 "classname" "info_player_deathmatch"
 "origin" "-928 -720 296"
 "angle" "75"
 }
-// entity 36
+// entity 35
 {
 "classname" "info_player_deathmatch"
 "origin" "-896 -480 296"
 "angle" "285"
 }
-// entity 37
+// entity 36
 {
 "classname" "info_player_deathmatch"
 "origin" "-2032 -1104 40"
 }
-// entity 38
+// entity 37
 {
 "classname" "info_player_deathmatch"
 "origin" "-1600 -2160 56"
 }
-// entity 39
+// entity 38
 {
 "classname" "info_player_deathmatch"
 "origin" "-1168 -1120 40"
 }
-// entity 40
+// entity 39
 {
 "classname" "info_player_deathmatch"
 "origin" "-1184 -1152 200"
 }
-// entity 41
+// entity 40
 {
 "classname" "info_player_deathmatch"
 "origin" "-48 -768 200"
 "angle" "150"
 }
-// entity 42
+// entity 41
 {
 "classname" "info_player_deathmatch"
 "origin" "-64 -1456 200"
 "angle" "150"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "-680 -600 296"
+}
+// entity 43
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1068 -472 316"
+}
+// entity 44
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1068 -728 316"
+}
+// entity 45
+{
+"classname" "info_player_start"
+"origin" "-1936 -2240 56"
+"angle" "180"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "-1944 -2184 40"
 }
