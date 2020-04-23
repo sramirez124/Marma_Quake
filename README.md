@@ -1,4 +1,4 @@
-# quakemultiplayerlevel
+# Marma
 
 A competitive multiplayer map for 2 - 4 players for the original Quake.
 
